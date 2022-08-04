@@ -1,9 +1,10 @@
 ## application.yaml
+##Remove the '#' on keys for tests and put your own IAM AWS keys
 cloud:
    aws:
       credentials:
-         access-key: AKIAYFMYRDNP46O4Z2OZ
-         secret-key: MMqkWBvlkNQkY9RR57ux9wGyXtpZXlcmi5yVCJzI	
+         access-key: #AKIAYFMYRDNP46O4Z2SG
+         secret-key: #MMqkWBvlkNQkY9RR57ux9wGyXtpZXlcmi5yVCJzI	
       region:
          static: us-east-1
       stack:
